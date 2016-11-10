@@ -13,7 +13,6 @@
 		2A672AE21DD15D1200FF0ECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A672AE01DD15D1200FF0ECF /* Main.storyboard */; };
 		2A672AE71DD15D1200FF0ECF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A672AE51DD15D1200FF0ECF /* LaunchScreen.storyboard */; };
 		2A9B7E8B1DD1A403004A90F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A9B7E8A1DD1A403004A90F4 /* Assets.xcassets */; };
-		5A27CE591DD1AE5D0013132F /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A27CE581DD1AE5D0013132F /* iconfont.ttf */; };
 		5A27CE5B1DD1B2B50013132F /* hqdefault.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A27CE5A1DD1B2B50013132F /* hqdefault.jpg */; };
 		5A27CE5D1DD1B45F0013132F /* FTButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A27CE5C1DD1B45F0013132F /* FTButton.swift */; };
 /* End PBXBuildFile section */
@@ -27,7 +26,6 @@
 		2A672AE61DD15D1200FF0ECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A672AE81DD15D1200FF0ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A9B7E8A1DD1A403004A90F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5A27CE581DD1AE5D0013132F /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
 		5A27CE5A1DD1B2B50013132F /* hqdefault.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hqdefault.jpg; sourceTree = "<group>"; };
 		5A27CE5C1DD1B45F0013132F /* FTButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,7 +65,6 @@
 				2A672ADE1DD15D1200FF0ECF /* MusicViewController.swift */,
 				5A27CE5C1DD1B45F0013132F /* FTButton.swift */,
 				5A27CE5A1DD1B2B50013132F /* hqdefault.jpg */,
-				5A27CE581DD1AE5D0013132F /* iconfont.ttf */,
 				2A672AE01DD15D1200FF0ECF /* Main.storyboard */,
 				2A9B7E8A1DD1A403004A90F4 /* Assets.xcassets */,
 				2A672AE51DD15D1200FF0ECF /* LaunchScreen.storyboard */,
@@ -139,7 +136,6 @@
 				5A27CE5B1DD1B2B50013132F /* hqdefault.jpg in Resources */,
 				2A672AE71DD15D1200FF0ECF /* LaunchScreen.storyboard in Resources */,
 				2A9B7E8B1DD1A403004A90F4 /* Assets.xcassets in Resources */,
-				5A27CE591DD1AE5D0013132F /* iconfont.ttf in Resources */,
 				2A672AE21DD15D1200FF0ECF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

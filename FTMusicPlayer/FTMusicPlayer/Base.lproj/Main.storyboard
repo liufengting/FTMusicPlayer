@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16C32f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="iJA-wV-Upu">
-    <device id="retina5_5" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16C41b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="iJA-wV-Upu">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -23,26 +23,25 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hqdefault.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="PRm-y6-9Pn">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KQw-G8-S4c">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="sgR-SJ-XuB">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F1x-u2-q3f" customClass="FTButton" customModule="FTMusicPlayer" customModuleProvider="target">
-                                            <rect key="frame" x="177.66666666666666" y="531" width="60" height="60"/>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F1x-u2-q3f">
+                                            <rect key="frame" x="147.5" y="521" width="80" height="80"/>
                                             <constraints>
-                                                <constraint firstAttribute="height" constant="60" id="i2h-4c-vAq"/>
-                                                <constraint firstAttribute="width" constant="60" id="m6v-pM-Gpo"/>
+                                                <constraint firstAttribute="height" constant="80" id="i2h-4c-vAq"/>
+                                                <constraint firstAttribute="width" constant="80" id="m6v-pM-Gpo"/>
                                             </constraints>
-                                            <fontDescription key="fontDescription" name="iconfont" family="iconfont" pointSize="30"/>
-                                            <state key="normal" title="S">
+                                            <state key="normal" backgroundImage="play">
                                                 <color key="titleColor" red="0.2156862745" green="0.72549019609999998" blue="0.4039215686" alpha="1" colorSpace="calibratedRGB"/>
                                             </state>
                                             <userDefinedRuntimeAttributes>
@@ -57,50 +56,28 @@
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cZY-1V-bYN" customClass="FTButton" customModule="FTMusicPlayer" customModuleProvider="target">
-                                            <rect key="frame" x="277.66666666666669" y="541" width="40" height="40"/>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cZY-1V-bYN">
+                                            <rect key="frame" x="257.5" y="530.5" width="60" height="60"/>
                                             <constraints>
-                                                <constraint firstAttribute="height" constant="40" id="8qi-CZ-R6r"/>
-                                                <constraint firstAttribute="width" constant="40" id="ftG-Xd-Qgd"/>
+                                                <constraint firstAttribute="height" constant="60" id="8qi-CZ-R6r"/>
+                                                <constraint firstAttribute="width" constant="60" id="ftG-Xd-Qgd"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" name="iconfont" family="iconfont" pointSize="18"/>
-                                            <state key="normal" title="N">
+                                            <state key="normal" backgroundImage="next">
                                                 <color key="titleColor" red="0.2156862745" green="0.72549019609999998" blue="0.4039215686" alpha="1" colorSpace="calibratedRGB"/>
                                             </state>
-                                            <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="color" keyPath="layerBorderColor">
-                                                    <color key="value" red="0.2156862745" green="0.72549019609999998" blue="0.4039215686" alpha="1" colorSpace="calibratedRGB"/>
-                                                </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="layerCornerRadius">
-                                                    <real key="value" value="20"/>
-                                                </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="layerBorderWidth">
-                                                    <real key="value" value="1"/>
-                                                </userDefinedRuntimeAttribute>
-                                            </userDefinedRuntimeAttributes>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x4N-l3-zNK" customClass="FTButton" customModule="FTMusicPlayer" customModuleProvider="target">
-                                            <rect key="frame" x="97.666666666666657" y="541" width="39.999999999999972" height="40"/>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x4N-l3-zNK">
+                                            <rect key="frame" x="57.5" y="530.5" width="60" height="60"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="40" id="Z1g-3Q-Rgi"/>
-                                                <constraint firstAttribute="height" constant="40" id="wqg-DR-dKu"/>
+                                                <constraint firstAttribute="width" constant="60" id="Z1g-3Q-Rgi"/>
+                                                <constraint firstAttribute="height" constant="60" id="wqg-DR-dKu"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" name="iconfont" family="iconfont" pointSize="18"/>
-                                            <state key="normal" title="P"/>
-                                            <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="layerCornerRadius">
-                                                    <real key="value" value="20"/>
-                                                </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="color" keyPath="layerBorderColor">
-                                                    <color key="value" red="0.2156862745" green="0.72549019609999998" blue="0.4039215686" alpha="1" colorSpace="calibratedRGB"/>
-                                                </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="layerBorderWidth">
-                                                    <real key="value" value="1"/>
-                                                </userDefinedRuntimeAttribute>
-                                            </userDefinedRuntimeAttributes>
+                                            <state key="normal" backgroundImage="previous"/>
                                         </button>
                                         <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9PD-Xi-3WW" customClass="FTButton" customModule="FTMusicPlayer" customModuleProvider="target">
-                                            <rect key="frame" x="67.666666666666686" y="138" width="280" height="280"/>
+                                            <rect key="frame" x="48" y="138" width="280" height="280"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="280" id="K4Y-FF-7t8"/>
                                                 <constraint firstAttribute="height" constant="280" id="MTb-8w-RMb"/>
@@ -113,30 +90,30 @@
                                             </userDefinedRuntimeAttributes>
                                         </button>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jesse McCartney" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J62-j6-dcq">
-                                            <rect key="frame" x="147.66666666666669" y="65" width="119.00000000000006" height="18"/>
+                                            <rect key="frame" x="128" y="65" width="119" height="18"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                             <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="saU-t7-wvz">
-                                            <rect key="frame" x="47.666666666666657" y="481" width="319" height="31"/>
+                                            <rect key="frame" x="47.5" y="481" width="280" height="31"/>
                                             <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="thumbTintColor" red="0.2156862745" green="0.72549019609999998" blue="0.4039215686" alpha="1" colorSpace="calibratedRGB"/>
                                         </slider>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fzm-8d-umG">
-                                            <rect key="frame" x="8" y="488.66666666666669" width="36.666666666666664" height="16"/>
+                                            <rect key="frame" x="8" y="488.5" width="36.5" height="16"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                             <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="03:58" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XuE-Mx-Gd2">
-                                            <rect key="frame" x="369.66666666666674" y="488" width="36.333333333333314" height="16"/>
+                                            <rect key="frame" x="330.5" y="488" width="36.5" height="16"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                             <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iBy-wl-AkW" customClass="FTButton" customModule="FTMusicPlayer" customModuleProvider="target">
-                                            <rect key="frame" x="181.66666666666666" y="98" width="50" height="20"/>
+                                            <rect key="frame" x="162" y="98" width="50" height="20"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="50" id="xTy-hJ-dny"/>
                                                 <constraint firstAttribute="height" constant="20" id="zAn-NO-DKb"/>
@@ -156,7 +133,7 @@
                                             </userDefinedRuntimeAttributes>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jZz-U1-ozJ" customClass="FTButton" customModule="FTMusicPlayer" customModuleProvider="target">
-                                            <rect key="frame" x="239.66666666666669" y="98" width="50.000000000000057" height="20"/>
+                                            <rect key="frame" x="220" y="98" width="50" height="20"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="20" id="5Sr-uK-df3"/>
                                                 <constraint firstAttribute="width" constant="50" id="RyB-hG-a7d"/>
@@ -176,7 +153,7 @@
                                             </userDefinedRuntimeAttributes>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SkI-9L-CEA" customClass="FTButton" customModule="FTMusicPlayer" customModuleProvider="target">
-                                            <rect key="frame" x="123.66666666666666" y="98" width="49.999999999999972" height="20"/>
+                                            <rect key="frame" x="104" y="98" width="50" height="20"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="50" id="786-jW-ATm"/>
                                                 <constraint firstAttribute="height" constant="20" id="f6p-Cv-sNY"/>
@@ -196,59 +173,126 @@
                                             </userDefinedRuntimeAttributes>
                                         </button>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="——" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZjL-21-Avu">
-                                            <rect key="frame" x="116.66666666666666" y="68" width="20.999999999999972" height="12"/>
+                                            <rect key="frame" x="97" y="68" width="21" height="12"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                             <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="——" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w4T-sB-mfn">
-                                            <rect key="frame" x="276.66666666666669" y="68" width="20" height="12"/>
+                                            <rect key="frame" x="257" y="68" width="20" height="12"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                             <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="Wkc-sj-mE6">
-                                            <rect key="frame" x="187.66666666666666" y="444" width="39" height="37"/>
+                                            <rect key="frame" x="168" y="444" width="39" height="37"/>
                                         </pageControl>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feeling like the only one" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jzN-TL-g02">
-                                            <rect key="frame" x="124.66666666666669" y="426" width="165" height="18"/>
+                                            <rect key="frame" x="105" y="426" width="165" height="18"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                             <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N3l-BM-KVF" customClass="FTButton" customModule="FTMusicPlayer" customModuleProvider="target">
+                                            <rect key="frame" x="169" y="617" width="37" height="35"/>
+                                            <state key="normal" image="pause"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="imageViewContentMode">
+                                                    <integer key="value" value="1"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ED2-zV-Lme" customClass="FTButton" customModule="FTMusicPlayer" customModuleProvider="target">
+                                            <rect key="frame" x="35" y="617" width="37" height="35"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="35" id="kbN-6n-1no"/>
+                                            </constraints>
+                                            <state key="normal" image="pause"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="imageViewContentMode">
+                                                    <integer key="value" value="1"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cgb-T2-TsY" customClass="FTButton" customModule="FTMusicPlayer" customModuleProvider="target">
+                                            <rect key="frame" x="102" y="617" width="37" height="35"/>
+                                            <state key="normal" image="pause"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="imageViewContentMode">
+                                                    <integer key="value" value="1"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ccJ-dJ-qG9" customClass="FTButton" customModule="FTMusicPlayer" customModuleProvider="target">
+                                            <rect key="frame" x="236" y="617" width="37" height="35"/>
+                                            <state key="normal" image="pause"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="imageViewContentMode">
+                                                    <integer key="value" value="1"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M5d-x1-etN" customClass="FTButton" customModule="FTMusicPlayer" customModuleProvider="target">
+                                            <rect key="frame" x="303" y="617" width="37" height="35"/>
+                                            <state key="normal" image="pause"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="imageViewContentMode">
+                                                    <integer key="value" value="1"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
                                     </subviews>
                                     <color key="tintColor" red="0.2156862745" green="0.72549019609999998" blue="0.4039215686" alpha="1" colorSpace="calibratedRGB"/>
                                     <constraints>
+                                        <constraint firstItem="N3l-BM-KVF" firstAttribute="height" secondItem="ED2-zV-Lme" secondAttribute="height" id="0BG-XJ-1qn"/>
+                                        <constraint firstItem="cgb-T2-TsY" firstAttribute="width" secondItem="ED2-zV-Lme" secondAttribute="width" id="6a6-Sl-H5D"/>
+                                        <constraint firstItem="N3l-BM-KVF" firstAttribute="centerY" secondItem="ED2-zV-Lme" secondAttribute="centerY" id="77s-ZX-HjA"/>
                                         <constraint firstItem="jZz-U1-ozJ" firstAttribute="leading" secondItem="iBy-wl-AkW" secondAttribute="trailing" constant="8" id="ALV-4c-IBa"/>
+                                        <constraint firstItem="ccJ-dJ-qG9" firstAttribute="height" secondItem="ED2-zV-Lme" secondAttribute="height" id="AZW-Qi-5Mw"/>
+                                        <constraint firstItem="N3l-BM-KVF" firstAttribute="width" secondItem="ED2-zV-Lme" secondAttribute="width" id="B5S-g2-Kcn"/>
+                                        <constraint firstItem="cgb-T2-TsY" firstAttribute="leading" secondItem="ED2-zV-Lme" secondAttribute="trailing" constant="30" id="DH3-rG-2R0"/>
                                         <constraint firstItem="9PD-Xi-3WW" firstAttribute="centerX" secondItem="sgR-SJ-XuB" secondAttribute="centerX" id="DbP-vo-zE0"/>
                                         <constraint firstItem="iBy-wl-AkW" firstAttribute="centerX" secondItem="sgR-SJ-XuB" secondAttribute="centerX" id="E6L-Or-UcT"/>
+                                        <constraint firstItem="ccJ-dJ-qG9" firstAttribute="leading" secondItem="N3l-BM-KVF" secondAttribute="trailing" constant="30" id="EA5-44-lqu"/>
+                                        <constraint firstItem="M5d-x1-etN" firstAttribute="leading" secondItem="ccJ-dJ-qG9" secondAttribute="trailing" constant="30" id="Fp9-ke-Lpv"/>
+                                        <constraint firstItem="cgb-T2-TsY" firstAttribute="height" secondItem="ED2-zV-Lme" secondAttribute="height" id="GBk-IW-Nb5"/>
+                                        <constraint firstItem="N3l-BM-KVF" firstAttribute="leading" secondItem="cgb-T2-TsY" secondAttribute="trailing" constant="30" id="GmM-CW-k0m"/>
                                         <constraint firstItem="fzm-8d-umG" firstAttribute="leading" secondItem="sgR-SJ-XuB" secondAttribute="leading" constant="8" id="HJi-kW-y7M"/>
                                         <constraint firstItem="x4N-l3-zNK" firstAttribute="centerY" secondItem="F1x-u2-q3f" secondAttribute="centerY" id="ILa-h1-0iX"/>
+                                        <constraint firstItem="ccJ-dJ-qG9" firstAttribute="width" secondItem="ED2-zV-Lme" secondAttribute="width" id="JwH-1g-ZuT"/>
+                                        <constraint firstItem="M5d-x1-etN" firstAttribute="centerY" secondItem="ED2-zV-Lme" secondAttribute="centerY" id="LhO-8d-8Yw"/>
                                         <constraint firstItem="Wkc-sj-mE6" firstAttribute="top" secondItem="jzN-TL-g02" secondAttribute="bottom" id="Mzd-FF-g6S"/>
                                         <constraint firstItem="w4T-sB-mfn" firstAttribute="centerY" secondItem="J62-j6-dcq" secondAttribute="centerY" id="OXb-M5-0f3"/>
                                         <constraint firstItem="w4T-sB-mfn" firstAttribute="leading" secondItem="J62-j6-dcq" secondAttribute="trailing" constant="10" id="SUo-y5-1p2"/>
                                         <constraint firstItem="Wkc-sj-mE6" firstAttribute="centerX" secondItem="sgR-SJ-XuB" secondAttribute="centerX" id="T6j-f7-V2v"/>
                                         <constraint firstItem="XuE-Mx-Gd2" firstAttribute="leading" secondItem="saU-t7-wvz" secondAttribute="trailing" constant="5" id="Tfd-iG-9Jy"/>
+                                        <constraint firstItem="M5d-x1-etN" firstAttribute="width" secondItem="ED2-zV-Lme" secondAttribute="width" id="UPV-xA-jAp"/>
                                         <constraint firstItem="J62-j6-dcq" firstAttribute="centerX" secondItem="sgR-SJ-XuB" secondAttribute="centerX" id="UfM-Uj-262"/>
+                                        <constraint firstItem="M5d-x1-etN" firstAttribute="height" secondItem="ED2-zV-Lme" secondAttribute="height" id="V2c-hD-0O8"/>
+                                        <constraint firstAttribute="trailing" secondItem="M5d-x1-etN" secondAttribute="trailing" constant="35" id="V8y-Tw-wDP"/>
                                         <constraint firstItem="iBy-wl-AkW" firstAttribute="leading" secondItem="SkI-9L-CEA" secondAttribute="trailing" constant="8" id="Wrh-Rq-t18"/>
+                                        <constraint firstAttribute="bottom" secondItem="ED2-zV-Lme" secondAttribute="bottom" constant="15" id="Xph-Ec-ty8"/>
                                         <constraint firstItem="iBy-wl-AkW" firstAttribute="top" secondItem="J62-j6-dcq" secondAttribute="bottom" constant="15" id="bdJ-61-jAV"/>
-                                        <constraint firstItem="cZY-1V-bYN" firstAttribute="leading" secondItem="F1x-u2-q3f" secondAttribute="trailing" constant="40" id="bxM-er-rZg"/>
+                                        <constraint firstItem="cZY-1V-bYN" firstAttribute="leading" secondItem="F1x-u2-q3f" secondAttribute="trailing" constant="30" id="bxM-er-rZg"/>
                                         <constraint firstItem="jzN-TL-g02" firstAttribute="centerX" secondItem="sgR-SJ-XuB" secondAttribute="centerX" id="cPV-EF-XaP"/>
                                         <constraint firstItem="fzm-8d-umG" firstAttribute="centerY" secondItem="saU-t7-wvz" secondAttribute="centerY" id="cSz-eT-tcx"/>
                                         <constraint firstItem="F1x-u2-q3f" firstAttribute="centerX" secondItem="sgR-SJ-XuB" secondAttribute="centerX" id="fdP-qE-geA"/>
                                         <constraint firstItem="jzN-TL-g02" firstAttribute="top" secondItem="9PD-Xi-3WW" secondAttribute="bottom" constant="8" id="hMg-ZD-fyM"/>
                                         <constraint firstItem="cZY-1V-bYN" firstAttribute="centerY" secondItem="F1x-u2-q3f" secondAttribute="centerY" id="ixT-uB-FcD"/>
                                         <constraint firstItem="saU-t7-wvz" firstAttribute="leading" secondItem="fzm-8d-umG" secondAttribute="trailing" constant="5" id="kBO-w8-SCj"/>
+                                        <constraint firstItem="ccJ-dJ-qG9" firstAttribute="centerY" secondItem="ED2-zV-Lme" secondAttribute="centerY" id="klA-bN-VXa"/>
                                         <constraint firstItem="SkI-9L-CEA" firstAttribute="centerY" secondItem="iBy-wl-AkW" secondAttribute="centerY" id="lb3-cv-eBs"/>
+                                        <constraint firstItem="cgb-T2-TsY" firstAttribute="centerY" secondItem="ED2-zV-Lme" secondAttribute="centerY" id="n9t-eK-bNm"/>
                                         <constraint firstItem="9PD-Xi-3WW" firstAttribute="top" secondItem="iBy-wl-AkW" secondAttribute="bottom" constant="20" id="oTp-p7-Zhg"/>
                                         <constraint firstItem="XuE-Mx-Gd2" firstAttribute="centerY" secondItem="saU-t7-wvz" secondAttribute="centerY" id="owi-wn-yhb"/>
                                         <constraint firstItem="saU-t7-wvz" firstAttribute="top" secondItem="Wkc-sj-mE6" secondAttribute="bottom" id="qbh-7n-RyF"/>
-                                        <constraint firstItem="F1x-u2-q3f" firstAttribute="top" secondItem="saU-t7-wvz" secondAttribute="bottom" constant="20" id="qwK-Px-3d9"/>
+                                        <constraint firstItem="F1x-u2-q3f" firstAttribute="top" secondItem="saU-t7-wvz" secondAttribute="bottom" constant="10" id="qwK-Px-3d9"/>
                                         <constraint firstItem="jZz-U1-ozJ" firstAttribute="centerY" secondItem="iBy-wl-AkW" secondAttribute="centerY" id="tAF-mi-rLx"/>
                                         <constraint firstItem="J62-j6-dcq" firstAttribute="leading" secondItem="ZjL-21-Avu" secondAttribute="trailing" constant="10" id="tmj-Tw-UG8"/>
                                         <constraint firstItem="ZjL-21-Avu" firstAttribute="centerY" secondItem="J62-j6-dcq" secondAttribute="centerY" id="uan-vZ-LEq"/>
-                                        <constraint firstItem="F1x-u2-q3f" firstAttribute="leading" secondItem="x4N-l3-zNK" secondAttribute="trailing" constant="40" id="wrU-3Y-Lzv"/>
+                                        <constraint firstItem="F1x-u2-q3f" firstAttribute="leading" secondItem="x4N-l3-zNK" secondAttribute="trailing" constant="30" id="wrU-3Y-Lzv"/>
                                         <constraint firstItem="J62-j6-dcq" firstAttribute="top" secondItem="sgR-SJ-XuB" secondAttribute="top" constant="65" id="xjv-d0-TAl"/>
+                                        <constraint firstItem="ED2-zV-Lme" firstAttribute="leading" secondItem="sgR-SJ-XuB" secondAttribute="leading" constant="35" id="yEz-fd-7SD"/>
                                         <constraint firstAttribute="trailing" secondItem="XuE-Mx-Gd2" secondAttribute="trailing" constant="8" id="zsb-y9-e3G"/>
                                     </constraints>
                                 </view>
@@ -287,14 +331,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2966" y="493"/>
+            <point key="canvasLocation" x="2965.5999999999999" y="492.50374812593708"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="wvd-RU-QAm">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="P0n-UM-GCN" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="BvY-iE-Eis">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="BvY-iE-Eis">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -321,11 +365,11 @@
                         <viewControllerLayoutGuide type="bottom" id="8Lk-X7-BV3"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="xHt-ek-wvC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Ib-eX-Kft">
-                                <rect key="frame" x="0.0" y="676" width="414" height="60"/>
+                                <rect key="frame" x="0.0" y="543" width="375" height="60"/>
                                 <subviews>
                                     <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bdP-Ta-1dR" customClass="FTButton" customModule="FTMusicPlayer" customModuleProvider="target">
                                         <rect key="frame" x="8" y="5" width="50" height="50"/>
@@ -342,19 +386,19 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Crash &amp; Burn" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dAa-qN-fWW">
-                                        <rect key="frame" x="66" y="13" width="91.333333333333343" height="18"/>
+                                        <rect key="frame" x="66" y="13" width="91.5" height="18"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jesse McCartney" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3iI-Yv-bFf">
-                                        <rect key="frame" x="66" y="30" width="112.33333333333334" height="17"/>
+                                        <rect key="frame" x="66" y="30" width="112.5" height="17"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TjT-ht-qac" customClass="FTButton" customModule="FTMusicPlayer" customModuleProvider="target">
-                                        <rect key="frame" x="366" y="10" width="40" height="40"/>
+                                        <rect key="frame" x="327" y="10" width="40" height="40"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="c5r-c0-NYc"/>
@@ -367,7 +411,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="StW-Wb-n1U" customClass="FTButton" customModule="FTMusicPlayer" customModuleProvider="target">
-                                        <rect key="frame" x="316" y="10" width="40" height="40"/>
+                                        <rect key="frame" x="277" y="10" width="40" height="40"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="hPM-HR-Yu0"/>
@@ -425,9 +469,14 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iJA-wV-Upu" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="V0B-xg-0ba">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="V0B-xg-0ba">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.2156862745" green="0.72549019609999998" blue="0.4039215686" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -443,5 +492,9 @@
         <image name="down" width="24" height="24"/>
         <image name="hqdefault.jpg" width="270" height="270"/>
         <image name="more" width="32" height="32"/>
+        <image name="next" width="45" height="45"/>
+        <image name="pause" width="45" height="45"/>
+        <image name="play" width="45" height="45"/>
+        <image name="previous" width="45" height="45"/>
     </resources>
 </document>

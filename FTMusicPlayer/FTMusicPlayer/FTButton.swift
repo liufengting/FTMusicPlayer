@@ -10,7 +10,7 @@ import UIKit
 
 @IBDesignable class FTButton: UIButton {
 
-    @IBInspectable var layerCornerRadius : CGFloat = CGFloat.nan {
+    @IBInspectable var layerCornerRadius : CGFloat = 0 {
         didSet {
             self.layer.cornerRadius = layerCornerRadius
         }
@@ -22,11 +22,18 @@ import UIKit
         }
     }
     
-    @IBInspectable var layerBorderWidth : CGFloat = CGFloat.nan {
+    @IBInspectable var layerBorderWidth : CGFloat = 0 {
         didSet {
             self.layer.borderWidth = layerBorderWidth
         }
     }
+    
+    @IBInspectable var imageViewContentMode : NSInteger = UIViewContentMode.scaleAspectFit.rawValue {
+        didSet {
+            self.imageView?.contentMode = UIViewContentMode(rawValue: imageViewContentMode)!
+        }
+    }
+
 }
 
 
