@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -44,17 +43,6 @@
                                             <state key="normal" backgroundImage="play">
                                                 <color key="titleColor" red="0.2156862745" green="0.72549019609999998" blue="0.4039215686" alpha="1" colorSpace="calibratedRGB"/>
                                             </state>
-                                            <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="layerCornerRadius">
-                                                    <real key="value" value="30"/>
-                                                </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="color" keyPath="layerBorderColor">
-                                                    <color key="value" red="0.2156862745" green="0.72549019609999998" blue="0.4039215686" alpha="1" colorSpace="calibratedRGB"/>
-                                                </userDefinedRuntimeAttribute>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="layerBorderWidth">
-                                                    <real key="value" value="1"/>
-                                                </userDefinedRuntimeAttribute>
-                                            </userDefinedRuntimeAttributes>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cZY-1V-bYN">
                                             <rect key="frame" x="257.5" y="530.5" width="60" height="60"/>
@@ -195,7 +183,7 @@
                                         </label>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N3l-BM-KVF" customClass="FTButton" customModule="FTMusicPlayer" customModuleProvider="target">
                                             <rect key="frame" x="169" y="617" width="37" height="35"/>
-                                            <state key="normal" image="pause"/>
+                                            <state key="normal" image="Download"/>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="imageViewContentMode">
                                                     <integer key="value" value="1"/>
@@ -207,7 +195,7 @@
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="35" id="kbN-6n-1no"/>
                                             </constraints>
-                                            <state key="normal" image="pause"/>
+                                            <state key="normal" image="Download"/>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="imageViewContentMode">
                                                     <integer key="value" value="1"/>
@@ -216,7 +204,7 @@
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cgb-T2-TsY" customClass="FTButton" customModule="FTMusicPlayer" customModuleProvider="target">
                                             <rect key="frame" x="102" y="617" width="37" height="35"/>
-                                            <state key="normal" image="pause"/>
+                                            <state key="normal" image="Download"/>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="imageViewContentMode">
                                                     <integer key="value" value="1"/>
@@ -225,7 +213,7 @@
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ccJ-dJ-qG9" customClass="FTButton" customModule="FTMusicPlayer" customModuleProvider="target">
                                             <rect key="frame" x="236" y="617" width="37" height="35"/>
-                                            <state key="normal" image="pause"/>
+                                            <state key="normal" image="Download"/>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="imageViewContentMode">
                                                     <integer key="value" value="1"/>
@@ -234,7 +222,7 @@
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M5d-x1-etN" customClass="FTButton" customModule="FTMusicPlayer" customModuleProvider="target">
                                             <rect key="frame" x="303" y="617" width="37" height="35"/>
-                                            <state key="normal" image="pause"/>
+                                            <state key="normal" image="Download"/>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="imageViewContentMode">
                                                     <integer key="value" value="1"/>
@@ -338,7 +326,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="P0n-UM-GCN" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="BvY-iE-Eis">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="BvY-iE-Eis">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -469,7 +457,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iJA-wV-Upu" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="V0B-xg-0ba">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="V0B-xg-0ba">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.2156862745" green="0.72549019609999998" blue="0.4039215686" alpha="1" colorSpace="calibratedRGB"/>
@@ -489,11 +477,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Download" width="128" height="128"/>
         <image name="down" width="24" height="24"/>
         <image name="hqdefault.jpg" width="270" height="270"/>
         <image name="more" width="32" height="32"/>
         <image name="next" width="45" height="45"/>
-        <image name="pause" width="45" height="45"/>
         <image name="play" width="45" height="45"/>
         <image name="previous" width="45" height="45"/>
     </resources>

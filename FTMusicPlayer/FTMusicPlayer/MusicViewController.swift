@@ -54,6 +54,9 @@ class MusicViewController: UIViewController {
         }
         
         self.musicPlayer.play()
+        
+//        let mm : FTMusicPlayer = FTMusicPlayer(with: "http://download.lingyongqian.cn/music/MinuetInG.mp3", delegate : self)
+        
     }
     
     

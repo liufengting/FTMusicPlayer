@@ -12,6 +12,8 @@
 		2A672ADF1DD15D1200FF0ECF /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A672ADE1DD15D1200FF0ECF /* MusicViewController.swift */; };
 		2A672AE21DD15D1200FF0ECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A672AE01DD15D1200FF0ECF /* Main.storyboard */; };
 		2A672AE71DD15D1200FF0ECF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A672AE51DD15D1200FF0ECF /* LaunchScreen.storyboard */; };
+		2A78068F1DD94EC7004AE5B1 /* FTMusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A78068E1DD94EC7004AE5B1 /* FTMusicPlayer.swift */; };
+		2A7925E11DD94B390071C9A7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7925E01DD94B390071C9A7 /* AVFoundation.framework */; };
 		2A9B7E8B1DD1A403004A90F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A9B7E8A1DD1A403004A90F4 /* Assets.xcassets */; };
 		5A27CE5B1DD1B2B50013132F /* hqdefault.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A27CE5A1DD1B2B50013132F /* hqdefault.jpg */; };
 		5A27CE5D1DD1B45F0013132F /* FTButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A27CE5C1DD1B45F0013132F /* FTButton.swift */; };
@@ -25,6 +27,8 @@
 		2A672AE11DD15D1200FF0ECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A672AE61DD15D1200FF0ECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A672AE81DD15D1200FF0ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A78068E1DD94EC7004AE5B1 /* FTMusicPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTMusicPlayer.swift; sourceTree = "<group>"; };
+		2A7925E01DD94B390071C9A7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		2A9B7E8A1DD1A403004A90F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A27CE5A1DD1B2B50013132F /* hqdefault.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hqdefault.jpg; sourceTree = "<group>"; };
 		5A27CE5C1DD1B45F0013132F /* FTButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTButton.swift; sourceTree = "<group>"; };
@@ -35,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A7925E11DD94B390071C9A7 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +51,7 @@
 			children = (
 				2A672ADB1DD15D1200FF0ECF /* FTMusicPlayer */,
 				2A672ADA1DD15D1200FF0ECF /* Products */,
+				2A7925DF1DD94B390071C9A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				2A672ADC1DD15D1200FF0ECF /* AppDelegate.swift */,
+				2A78068E1DD94EC7004AE5B1 /* FTMusicPlayer.swift */,
 				2A61BB271DD1F86D0024FA68 /* HomeViewController.swift */,
 				2A672ADE1DD15D1200FF0ECF /* MusicViewController.swift */,
 				5A27CE5C1DD1B45F0013132F /* FTButton.swift */,
@@ -71,6 +78,14 @@
 				2A672AE81DD15D1200FF0ECF /* Info.plist */,
 			);
 			path = FTMusicPlayer;
+			sourceTree = "<group>";
+		};
+		2A7925DF1DD94B390071C9A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A7925E01DD94B390071C9A7 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +164,7 @@
 			files = (
 				5A27CE5D1DD1B45F0013132F /* FTButton.swift in Sources */,
 				2A672ADF1DD15D1200FF0ECF /* MusicViewController.swift in Sources */,
+				2A78068F1DD94EC7004AE5B1 /* FTMusicPlayer.swift in Sources */,
 				2A672ADD1DD15D1200FF0ECF /* AppDelegate.swift in Sources */,
 				2A61BB281DD1F86D0024FA68 /* HomeViewController.swift in Sources */,
 			);
@@ -271,8 +287,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = E83AC9WR2F;
 				INFOPLIST_FILE = FTMusicPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.liufengting.FTMusicPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -284,8 +302,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = E83AC9WR2F;
 				INFOPLIST_FILE = FTMusicPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.liufengting.FTMusicPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
